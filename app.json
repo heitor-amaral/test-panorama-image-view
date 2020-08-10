@@ -1,0 +1,12 @@
+{
+  "name": "test-panorama-image-view",
+  "displayName": "test-panorama-image-view",
+  "expo": {
+    "name": "test-panorama-image-view",
+    "slug": "test-panorama-image-view",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
