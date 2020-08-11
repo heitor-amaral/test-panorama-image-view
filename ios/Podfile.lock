@@ -2,6 +2,7 @@ PODS:
   - boost-for-react-native (1.63.0)
   - CocoaAsyncSocket (7.6.4)
   - CocoaLibEvent (1.0.0)
+  - CTPanoramaView (1.2)
   - DoubleConversion (1.1.6)
   - EXConstants (9.1.1):
     - UMConstantsInterface
@@ -105,6 +106,12 @@ PODS:
   - OpenSSL-Universal (1.0.2.19):
     - OpenSSL-Universal/Static (= 1.0.2.19)
   - OpenSSL-Universal/Static (1.0.2.19)
+  - PanoramaView (0.1.3):
+    - PanoramaView/Core (= 0.1.3)
+    - React
+  - PanoramaView/Core (0.1.3):
+    - CTPanoramaView (= 1.2)
+    - React
   - RCTRequired (0.62.2)
   - RCTTypeSafety (0.62.2):
     - FBLazyVector (= 0.62.2)
@@ -391,6 +398,7 @@ DEPENDENCIES:
   - FlipperKit/SKIOSNetworkPlugin (~> 0.33.1)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - "PanoramaView (from `../node_modules/@lightbase/react-native-panorama-view`)"
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
   - React (from `../node_modules/react-native/`)
@@ -436,6 +444,7 @@ SPEC REPOS:
     - boost-for-react-native
     - CocoaAsyncSocket
     - CocoaLibEvent
+    - CTPanoramaView
     - Flipper
     - Flipper-DoubleConversion
     - Flipper-Folly
@@ -481,6 +490,8 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  PanoramaView:
+    :path: "../node_modules/@lightbase/react-native-panorama-view"
   RCTRequired:
     :path: "../node_modules/react-native/Libraries/RCTRequired"
   RCTTypeSafety:
@@ -558,6 +569,7 @@ SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
   CocoaLibEvent: 2fab71b8bd46dd33ddb959f7928ec5909f838e3f
+  CTPanoramaView: cc2a4e3bc324ccac4520375b131755747da27a7c
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
   EXConstants: f907b3b6ce16e20d1750f22af1e095e924574bcb
   EXErrorRecovery: 500f1d4231c534f415e86caeb3fc677c7f5dd23c
@@ -583,6 +595,7 @@ SPEC CHECKSUMS:
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
   OpenSSL-Universal: 8b48cc0d10c1b2923617dfe5c178aa9ed2689355
+  PanoramaView: a6253ccab49f49c4aa71c8e9f2ef3c5e30072037
   RCTRequired: cec6a34b3ac8a9915c37e7e4ad3aa74726ce4035
   RCTTypeSafety: 93006131180074cffa227a1075802c89a49dd4ce
   React: 29a8b1a02bd764fb7644ef04019270849b9a7ac3
